@@ -48,18 +48,19 @@ In this dataset, you'll explore a professional HR management system that include
 Analyze workforce dynamics, focusing on demographics, attrition, and performance.  
 
 ### 🔑 KPIs  
-- Attrition Rate (%) – overall and by department  
-- Average Performance Rating  
-- Training Hours per Employee  
-- Employee Count  
+- Total Employees
+- Attrition Rate (%) 
+- Average Salary 
 
 ### 📈 Visuals  
-- Attrition by Department (bar chart)  
-- Max/Min Attrition Rate by Department (KPI cards)  
-- Age vs Performance (scatter plot with age groups)  
-- Performance vs Training Hours (matrix with conditional formatting)  
+- Attrition by Department (Bar Chart)
+- Average Salary by Job Level (Bar Chart) 
+- Monthly Average Performance (Line Chart) 
+- Performance vs Training Hours (Scatter Plot)
+- Performance Rating by Manager (Matrix)
+- Employee Promotion (Matrix)
 
-  <img width="746" height="418" alt="image" src="https://github.com/user-attachments/assets/56567c8d-62ae-4865-b04e-f8a6464b516b" />
+  <img width="745" height="417" alt="image" src="https://github.com/user-attachments/assets/f3b8ea42-7b86-4cb6-bf3a-e22902d567bb" />
 
 
 ## 🧩 Page 2 – Store & Productivity Insights  
@@ -68,16 +69,16 @@ Analyze workforce dynamics, focusing on demographics, attrition, and performance
 Track **store-level performance, sales contribution, and operational KPIs**.  
 
 ### 🔑 KPIs  
-- Total Sales & Breakdown by Store Type  
-- On-Time Delivery %  
+- Total Sales  
 - Customer Satisfaction (1–10 scale)  
-- Waste/Loss % (highlight highest & lowest)  
+- Average Waste/Loss % 
+- Average On-Time Delivery %   
 
 ### 📈 Visuals  
-- Top 5 / Bottom 5 Stores (matrix with Store ID, Sales, Satisfaction, Training Hours)  
-- Sales by Store Type (pie/bar chart with % contribution)  
-- Waste/Loss % Trend (line chart with conditional colors)  
-- Dynamic Card → “Sales across [Store Type] – [No. of Stores] – [Share of Total Sales]”
+- Top 5 / Bottom 5 Stores (Matrix with Sales Target Achieved or not)
+- Employee Satisfaction by Department (Clustered Bar CHart)
+- Productivity Index by Role (Clustered Bar Chart)
+- Correlation of Age and Performance Rating (Scatter Plot)
 
   <img width="746" height="419" alt="image" src="https://github.com/user-attachments/assets/c6d76cc4-dd5c-42d7-8cf7-1a9eaad238fe" />
 
@@ -85,8 +86,13 @@ Track **store-level performance, sales contribution, and operational KPIs**.
 ## 🛠️ Data Model  
 - **Employees Table** – Employee demographics, training  
 - **Performance Table** – Monthly ratings, satisfaction  
-- **Stores Table** – Store ID, type, sales, delivery, waste/loss  
+- **Stores Table** – Store ID, type, sales, delivery, waste/loss
+- **Roles Table** - Employee ID, KPIs, Productivity Index
+- **Business Outcomes Table** - Store ID, Department, Date, Sales (Actual & Target), Customer Satisfaction, NPS Score, Waster %, On time delivery %
 
-Relationships:  
+**Relationships:**  
 - Employees → Performance (1-to-many)  
-- Stores → Metrics (1-to-many)  
+- Employees → Stores (1-to-many)
+- Employees → Roles (1-to-many)
+- Employees → Business Outcomes (1-to-many)
+- Stores → Business Outcomes (1-to-many)
