@@ -59,6 +59,8 @@ Analyze workforce dynamics, focusing on demographics, attrition, and performance
 - Age vs Performance (scatter plot with age groups)  
 - Performance vs Training Hours (matrix with conditional formatting)  
 
+<img width="746" height="418" alt="image" src="https://github.com/user-attachments/assets/56567c8d-62ae-4865-b04e-f8a6464b516b" />
+
 
 ## 🧩 Page 2 – Store & Productivity Insights  
 
@@ -75,7 +77,10 @@ Track **store-level performance, sales contribution, and operational KPIs**.
 - Top 5 / Bottom 5 Stores (matrix with Store ID, Sales, Satisfaction, Training Hours)  
 - Sales by Store Type (pie/bar chart with % contribution)  
 - Waste/Loss % Trend (line chart with conditional colors)  
-- Dynamic Card → “Sales across [Store Type] – [No. of Stores] – [Share of Total Sales]”  
+- Dynamic Card → “Sales across [Store Type] – [No. of Stores] – [Share of Total Sales]”
+
+  <img width="746" height="419" alt="image" src="https://github.com/user-attachments/assets/c6d76cc4-dd5c-42d7-8cf7-1a9eaad238fe" />
+
 
 ## 🛠️ Data Model  
 - **Employees Table** – Employee demographics, training  
