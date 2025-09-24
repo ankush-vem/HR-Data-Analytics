@@ -60,7 +60,7 @@ Analyze workforce dynamics, focusing on demographics, attrition, and performance
 - Performance Rating by Manager (Matrix)
 - Employee Promotion (Matrix)
 
-  <img width="745" height="417" alt="image" src="https://github.com/user-attachments/assets/f3b8ea42-7b86-4cb6-bf3a-e22902d567bb" />
+  <img width="746" height="417" alt="image" src="https://github.com/user-attachments/assets/4d2ac2a5-26c8-42b6-938d-02fce9754ede" />
 
 
 ## 🧩 Page 2 – Store & Productivity Insights  
