@@ -90,6 +90,8 @@ Track **store-level performance, sales contribution, and operational KPIs**.
 - **Roles Table** - Employee ID, KPIs, Productivity Index
 - **Business Outcomes Table** - Store ID, Department, Date, Sales (Actual & Target), Customer Satisfaction, NPS Score, Waster %, On time delivery %
 
+  <img width="618" height="419" alt="image" src="https://github.com/user-attachments/assets/c3591fa2-89f4-421a-9a4d-cad45ec0ed5a" />
+
 **Relationships:**  
 - Employees → Performance (1-to-many)  
 - Employees → Stores (1-to-many)
