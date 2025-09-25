@@ -9,7 +9,7 @@ The report consists of **two pages**:
 2. **Store & Productivity Insights**  
 
 
-## About the Data
+## 📊 About the Data
 As a HR data analyst working with a comprehensive dataset of over 497,000 detailed employee performance records. The goal is to analyze workforce patterns and uncover actionable insights that HR teams and business leaders can use to improve employee satisfaction, optimize performance, and enhance organizational effectiveness.
 
 In this dataset, you'll explore a professional HR management system that includes attributes and metrics such as:
@@ -29,7 +29,7 @@ In this dataset, you'll explore a professional HR management system that include
 •	Role-specific KPIs, productivity indices, and customer satisfaction scores
 
 
-## Technical Requirements
+## ⚙️ Technical Requirements
 1. How many employees left the company? Which department has the most people leaving?
 2. What is the average salary by job level? Create a chart showing salary differences between departments.
 3. Which months have the highest employee performance ratings? Show this in a graph.
