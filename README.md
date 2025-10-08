@@ -4,6 +4,8 @@
 This Power BI report provides a comprehensive analysis of **employee performance, attrition trends, and store productivity**.  
 It is designed to support decision-making by combining workforce analytics with operational KPIs across 150 stores.  
 
+[Link to Dashboard](https://app.powerbi.com/groups/me/reports/73305648-f2d2-49e1-9ec6-49cf9f4eac1c/bd735956fe1a21577fa8?experience=power-bi&bookmarkGuid=fb89606aae5e293d6ce3)
+
 The report consists of **two pages**:  
 1. **Employee Insights**  
 2. **Store & Productivity Insights**  
